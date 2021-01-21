@@ -1,0 +1,9 @@
+.item-tile {
+    margin: 0.25rem;
+}
+
+.item-tile .MuiCardActions-root {
+    display: flex;
+    justify-content: space-between;
+    border-top: 1px solid lightgray;
+}

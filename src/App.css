@@ -1,0 +1,42 @@
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+#contracts {
+  display: flex;
+  flex-direction: column;
+  background-color: chocolate;
+  width: 50%;
+  padding: 1rem;
+  padding-bottom: 3rem;
+  position: relative;
+}
+
+#contract-tiles {
+  max-height: 75%;
+  overflow: auto;
+}
+
+#create-contract {
+  position: absolute;
+  bottom: 0.25rem;
+}
+
+#claims {
+  display: flex;
+  flex-direction: column;
+  background-color: cornflowerblue;
+  width: 50%;
+  padding: 1rem;
+}
+
+#create-contract-line-inputs {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.tiles {
+  overflow-y: auto;
+}

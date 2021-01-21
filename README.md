@@ -9,7 +9,7 @@ Not fully complete it can only perform the following actions so far:
 
 ## Build Instructions (Bash):
 ```
-git clone https://github.com/lukerep/payapps_challenge_ui payapps_challenge_ui
+git clone https://github.com/lukerep/payapps_challenge_ui.git payapps_challenge_ui
 cd payapps_challenge_ui
 npm install
 ```
